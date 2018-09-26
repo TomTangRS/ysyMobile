@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="setting_about_description">介绍......介绍</string>
+</resources>

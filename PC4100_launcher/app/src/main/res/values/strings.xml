@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">PC4100_launcher</string>
+    <string name="title_activity_main_launcher2">MainLauncher2</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="maintitle">yctek test</string>
+    <string name="mainled">Led</string>
+    <string name="mainbeep">Beep</string>
+    <string name="mainbacklight">Backlight</string>
+    <string name="mainID">BoardID</string>
+    <string name="mainwdog">WatchDog</string>
+    <string name="mainserial">Serial</string>
+    <string name="main2boardid">BoardID</string>
+    <string name="maine2prom">E2PROM</string>
+    <string name="mainLauncher">StartLauncher</string>
+    <string name="mainCalibrate">Calibrate</string>
+    <string name="mainNetwork">SetNetwork</string>
+    <string name="main2network">Network Setting</string>
+    <string name="main2networkIP">IP     ：</string>
+    <string name="main2networkSubMask">SubMask：</string>
+    <string name="main2networkGateWay">GateWay：</string>
+    <string name="main2networkDNS1">DNS1   ：</string>
+    <string name="main2networkDNS2">DNS2   ：</string>
+    <string name="mainApplyNet">Apply</string>
+    <string name="maingetmac">GetMac</string>
+    <string name="mainrandommac">RandomMac</string>
+    <string name="mainsetmac">SetMac</string>
+
+
+    <string name="mainad">ADC</string>
+    <string name="main2adtitle">AD</string>
+    <string name="mainReadAd1">ReadAD1</string>
+    <string name="mainReadAd2">ReadAD2</string>
+    <string name="mainReadAd3">ReadAD3</string>
+    <string name="mainReadAd4">ReadAD4</string>
+
+    <string name="mainAutoBacklightStart">StartAutoBacklight</string>
+    <string name="mainAutoBacklightStop">StopAutoBacklight</string>
+
+    <string name="maincan">Can</string>
+
+    <string name="main2backlighttitle">Backlight Setting</string>
+
+    <string name="main2e2promtitle">E2prom Setting</string>
+    <string name="main2e2promwrite">write e2prom</string>
+    <string name="main2e2promread">read e2prom</string>
+
+    <string name="main2wdogtitle">Watch Dog Setting</string>
+    <string name="main2wdogsettime">Set Time</string>
+    <string name="main2wdogstart">StartWdog</string>
+    <string name="main2wdogstop">StopWdog</string>
+    <string name="main2wdogfeed">FeedWdog</string>
+
+    <string name="main2serialtitle">serial test</string>
+    <string name="main2serialrecetext">receive</string>
+    <string name="main2serialsendtext">send</string>
+    <string name="main2serialsendbutton">send</string>
+    <string name="main2serialnumber">port</string>
+    <string name="main2serialbaute">baute</string>
+    <string name="main2serialparitybit">parity</string>
+    <string name="main2serialdatabit">data</string>
+    <string name="main2serialstopbit">stop</string>
+    <string name="main2serialopenbutton">open</string>
+    <string name="main2serialclosebutton">close</string>
+    <string name="main2serialclearrecebutton">clear rece</string>
+    <string name="main2serialclearrecenumber">ClearReceNum</string>
+    <string name="main2serialclearsendnumber">ClearSendNum</string>
+
+
+    <string name="main2iotitle">IO Input Output Test</string>
+    <string name="main2iooutputh">IO Set High Level</string>
+    <string name="main2iooutputl">IO Set Low Level</string>
+    <string name="main2ioreadinput">Read Input IO</string>
+    <string name="main2iopollmode">Poll mode</string>
+    <string name="main2iointrmode">Intr mode</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_network">网络设置</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_system_setting">系统设置</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

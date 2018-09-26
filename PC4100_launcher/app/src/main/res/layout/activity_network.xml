@@ -1,0 +1,147 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    <TextView
+             android:id="@+id/TextViewNetwork"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"             
+             android:layout_centerHorizontal="true"
+             android:textSize="30sp"
+             android:textColor="#FF00FF00"      
+             android:text="@string/main2network" />
+     
+    <LinearLayout
+         android:id="@+id/linearLayoutStaticNetwork"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"       	 
+	     android:orientation="vertical" >
+	
+	<RadioGroup android:id="@+id/radioGroupDHCP" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+     <RadioButton android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/radiostaticip" 
+		android:text="StaticIP" 
+		android:checked="true">    
+       </RadioButton>
+     <RadioButton android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/radiodhcp" 
+		android:text="DHCP">    
+		</RadioButton>    
+    </RadioGroup>
+	 <LinearLayout
+         android:id="@+id/linearLayoutIP"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+  	     android:orientation="horizontal" >
+	     <TextView
+             android:id="@+id/TextViewNetworkIP"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content" 
+             android:text="@string/main2networkIP" />
+	     <EditText
+         android:id="@+id/editTextIP"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editTextSubMask"  
+         android:ems="10" />  
+          <TextView
+             android:id="@+id/TextViewNetworkSubMask"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content" 
+             android:text="@string/main2networkSubMask" />
+	     <EditText
+         android:id="@+id/editTextSubMask"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"   
+         android:ems="10" />                
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/linearLayoutGateWay"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"       	  
+	     android:orientation="horizontal" >
+	     <TextView
+             android:id="@+id/TextViewNetworkGateWay"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content" 
+             android:text="@string/main2networkGateWay" />	   
+	     <EditText
+         android:id="@+id/editTextGateWay"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:ems="10" /> 
+          <TextView
+             android:id="@+id/TextViewNetworkDNS1"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content" 
+             android:text="@string/main2networkDNS1" />
+	     <EditText
+         android:id="@+id/editTextDNS1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"  
+
+         android:ems="10" />              
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/linearLayoutDNS2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"       	  
+	     android:orientation="horizontal" >
+	     <TextView
+             android:id="@+id/TextViewNetworkDNS2"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content" 
+             android:text="@string/main2networkDNS2" />
+	     <EditText
+         android:id="@+id/editTextDNS2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"  
+
+         android:ems="10" /> 
+          <Button
+         android:id="@+id/buttonApplyNet"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"         
+         android:text="@string/mainApplyNet" />                 
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/linearLayoutMacaddr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"       	  
+	     android:orientation="horizontal" >
+	     
+         <Button
+         android:id="@+id/buttonGetMac"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"         
+         android:text="@string/maingetmac" />
+          <EditText
+         android:id="@+id/editTextMacaddr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"  
+
+         android:ems="10" />       
+     </LinearLayout>    
+   
+    </LinearLayout>
+	<Button
+        android:id="@+id/buttonreturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/stytlereturn"
+        />
+</RelativeLayout>
